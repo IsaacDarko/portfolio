@@ -7,6 +7,12 @@
 }
 
 
+.my__about {
+    flex: 1;
+    width: 100%;
+}
+
+
 .head-text {
     color: var(--lightGray-color);
     padding-top: 0.1rem;
@@ -19,6 +25,7 @@
   
 .app__profiles {
     display: flex;
+    flex: 1;
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;

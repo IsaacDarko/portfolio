@@ -20,12 +20,11 @@ const About = () => {
 
 
   return (
-
-    <div>
+    <div className='my__about'>
       <h2 className='head-text'>
         Developing Real-World Solutions <br /> For Over A Decade
       </h2>
-
+ 
       <div className='app__profiles'>
         { abouts.map((about, index) => (
 
@@ -45,7 +44,6 @@ const About = () => {
       </div>
     
     </div>
-
   )
 }
 
