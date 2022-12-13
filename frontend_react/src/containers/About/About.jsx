@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { images } from '../../constants';
+import { AppWrap } from '../../wrapper'
 import { motion } from 'framer-motion';
 import { urlFor, client } from '../../client';
 
@@ -20,9 +21,9 @@ const About = () => {
 
   return (
 
-    <div className='app__about'>
+    <div>
       <h2 className='head-text'>
-        Developing Real-World Solutions <br /> For Over 10 Years
+        Developing Real-World Solutions <br /> For Over A Decade
       </h2>
 
       <div className='app__profiles'>
@@ -48,4 +49,4 @@ const About = () => {
   )
 }
 
-export default About
+export default AppWrap( About, 'about', 'app__about');

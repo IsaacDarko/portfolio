@@ -9,9 +9,9 @@ const App = () => {
         <Navbar />
         <Header />
         <About />
+        <Works />
         <Skills />
         <Testimonials />
-        <Works />
         <Footer />
 
     </div>
