@@ -18,6 +18,16 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+
+    img {
+      width: 250px;
+      height: 125px;
+      margin-left: 3rem;
+
+      @media screen and (max-width: 1300px) {
+        margin-left: 0;
+      }
+    }
   
 }
 
