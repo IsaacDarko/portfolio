@@ -122,4 +122,4 @@ const Works = () => {
   )
 }
 
-export default AppWrap(Works, 'work', 'app__work');
+export default AppWrap(Works, 'projects', 'app__work');

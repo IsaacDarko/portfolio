@@ -79,4 +79,4 @@ const Testimonials = () => {
   )
 }
 
-export default AppWrap(Testimonials, 'testimonial', 'app__testimonial');
+export default AppWrap(Testimonials, 'testimonials', 'app__testimonial');

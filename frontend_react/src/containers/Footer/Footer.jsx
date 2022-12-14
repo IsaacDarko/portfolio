@@ -98,7 +98,7 @@ const Footer = () => {
             <BsInstagram /> 
             <BsLinkedin />         
           
-          <span>©Copyright 2022 Isaac Tsibu-Dako</span>
+          <span>©Copyright 2022 Isaac Tsibu-Darko</span>
 
         </motion.div>
 
