@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { AiFillEye, AiFillGithub } from 'react-icons/ai';
-import { animate, motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 import { AppWrap } from '../../wrapper';
 import { urlFor, client } from '../../client';
 import './Works.scss';
-import { BsStack } from 'react-icons/bs';
 
 const Works = () => {
   const [activeFilter, setActiveFilter] = useState('All');
@@ -50,7 +49,7 @@ const Works = () => {
 
 
         <div className='app__work-filter'>
-          {['Front-End', 'Full-Stack', 'Web 3.0', 'All'].map((item, index) => (
+          {['Full-Stack', 'Web 3.0', 'All'].map((item, index) => (
             <div
               key={index}
               onClick={() => handleWorkFilter(item) }
