@@ -159,6 +159,10 @@
       width: 92%;
       margin: 1rem 0.75rem;
     }
+
+    @media screen and (min-width: 2000px) {
+      margin-left: 5rem;
+  }
 }
 
 
