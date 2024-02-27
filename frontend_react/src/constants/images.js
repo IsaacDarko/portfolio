@@ -39,7 +39,9 @@ import web3 from '../assets/web3.png';
 import solidity from '../assets/solidity.png';
 import ethremix from '../assets/ethremix.png';
 import reactfull from '../assets/reactfull.png';
-import me from '../assets/me.png'
+import me from '../assets/me.png';
+import moi from '../assets/moi.png';
+
 
 export default {
   email,
@@ -74,6 +76,7 @@ export default {
   asus,
   bolt,
   nb,
+  moi,
   me,
   skype,
   spotify,
